@@ -1,0 +1,257 @@
+/* 
+   QueryMind CSS Stylesheet
+   This file defines the visual appearance of the QueryMind application
+   with a cyberpunk-inspired theme featuring glowing neon elements.
+*/
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
+
+/* ======================================
+   BASE STYLES 
+   ====================================== */
+body {
+    background-color: #042b15;
+    color: #e0f7e9;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* ======================================
+   COMPONENT STYLES
+   ====================================== */
+/* Card section layout - used for various containers */
+.card {
+    background-color: #174430;
+    border: 1px solid #2e7054;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 8px rgba(0, 255, 170, 0.2);
+}
+
+/* Glowing header style - used for main section headers */
+.glow-header {
+    font-size: 1.6rem;
+    color: #aef1cf;
+    text-shadow: 0 0 5px #39ffa2, 0 0 10px #39ffa2;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #39ffa2;
+    padding-bottom: 5px;
+}
+
+/* Form input styling */
+input[type="text"], .stTextInput > div > input {
+    background-color: #1c4334;
+    color: #d9fff1;
+    border: 1px solid #4de5a0;
+    border-radius: 8px;
+}
+
+/* ======================================
+   SIDEBAR STYLES
+   ====================================== */
+section[data-testid="stSidebar"] {
+    background-color: #020c08;
+    color: #ffc6e8; /* Soft pink/rose tone */
+    padding: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: inset 0 0 12px #026517;
+}
+
+/* Headers in sidebar */
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: #73af82; /* Lighter pink */
+    text-shadow: 0 0 8px #f1066c;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+
+/* Sidebar header card */
+.sidebar-header {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center; /* Center the heading and tagline */
+}
+
+/* Database Hub heading */
+.db-hub {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    color: #00b7eb; /* Neon blue */
+    text-shadow: 0 0 6px #00b7eb, 0 0 12px #00b7eb;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+/* Tagline styling */
+.tagline {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.9rem;
+    color: #00b7eb; /* Neon blue */
+    text-shadow: 0 0 4px #00b7eb;
+    margin: 0;
+    font-weight: 700;
+}
+
+/* Sidebar alert styling */
+.stAlert {
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgba(255, 148, 194, 0.1) !important;
+    border: 1px solid #ff94c2 !important;
+}
+
+.stAlert[data-testid="stAlert"] p {
+    color: #ffc6e8 !important;
+    text-shadow: 0 0 3px #ff94c2 !important;
+}
+
+/* ======================================
+   DATABASE INFO STYLES
+   ====================================== */
+/* Database info card */
+.db-info-card {
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Database Details heading */
+.db-details {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #00b7eb; /* Neon blue */
+    text-shadow: 0 0 6px #00b7eb, 0 0 10px #00b7eb;
+    margin: 0 0 1rem 0.5rem; /* Slight left offset for alignment */
+    padding-bottom: 0.3rem;
+}
+
+/* Database info text */
+.db-info-text {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #d2f5d0;
+    text-align: center;
+    text-shadow: 0 0 3px #39ffa2;
+}
+
+/* Table item styling */
+.table-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    background-color: rgba(46, 112, 84, 0.2);
+    border-radius: 6px;
+    margin: 12px 0;
+    transition: background-color 0.3s ease;
+}
+
+.table-item:hover {
+    background-color: rgba(46, 112, 84, 0.4);
+}
+
+.table-item span {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    color: #ced383;
+    font-size: 0.65rem;
+}
+
+.table-item .row-count {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    color: #39ffa2;
+    font-size: 0.7rem;
+    text-shadow: 0 0 3px #39ffa2;
+}
+
+/* ======================================
+   CHAT INTERFACE STYLES
+   ====================================== */
+/* Chat message container */
+.stChatMessage {
+    background-color: #1a0808;
+    border-radius: 20px;
+    padding: 12px;
+    margin: 10px -100px;
+    border-left: 7px solid #73ffcd;
+
+    /* New styles to control bubble size */
+    /*max-width: 90%; /* Adjust as needed */
+    /*width: fit-content;*/
+}
+
+/* ======================================
+   ADDITIONAL STYLES & OVERLAYS
+   ====================================== */
+.orbitron-font {
+    font-family: 'Orbitron', sans-serif;
+    color: #d2f5d0;
+    text-shadow: 0 0 6px #39ffa2;
+}
+
+.db-info-card, .tables-card {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(57, 255, 162, 0.5);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.db-info-text, .table-item {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    color: #d2f5d0;
+    margin: 0.5rem 0;
+}
+
+/* Heading styles specific to database details */
+.glow-header12.db-details {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    color: #39ffa2;
+    text-shadow: 0 0 8px #39ffa2;
+    margin-bottom: 0.5rem;
+}
+
+.glow-header.db-details {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    color: #39ffa2;
+    text-shadow: 0 0 8px #39ffa2;
+    margin-bottom: 0.5rem;
+}
+
+/* Table row styling */
+.table-item {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.row-count {
+    font-family: 'Orbitron', sans-serif;
+    color: #ff69b4;
+    font-weight: 500;
+}
+
+/* UI element size adjustments */
+/* Reduce file uploader box height and padding */
+div[data-testid="stFileUploader"] {
+    padding: 0.1rem 3rem !important;
+    margin-bottom: -2rem !important;
+}
+
+/* Shrink the warning message */
+div[data-testid="stAlert"] {
+    padding: 0.8rem 1rem !important;
+    margin: 0.1rem 3rem !important;
+    border-radius: 0.5rem !important;
+    font-size: 0.9rem !important;
+}
