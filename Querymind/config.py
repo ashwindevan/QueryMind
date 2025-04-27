@@ -50,10 +50,10 @@ class ModelConfig:
 
 
 # Model configurations ollama
-QWEN_2_5 = ModelConfig("qwen2.5", 0.0, ModelProvider.OLLAMA)
-GEMMA_3 = ModelConfig("gemma3-tools:12b", 0.7, ModelProvider.OLLAMA)  # Moderate temperature for more creative responses
-DEEPSEEK = ModelConfig("deepseek-r1:7b", 0.7, ModelProvider.OLLAMA)
-SQLCODER = ModelConfig("sqlcoder", 0.7, ModelProvider.OLLAMA)
+#QWEN_2_5 = ModelConfig("qwen2.5", 0.0, ModelProvider.OLLAMA)
+#GEMMA_3 = ModelConfig("gemma3-tools:12b", 0.7, ModelProvider.OLLAMA)  # Moderate temperature for more creative responses
+#DEEPSEEK = ModelConfig("deepseek-r1:7b", 0.7, ModelProvider.OLLAMA)
+#SQLCODER = ModelConfig("sqlcoder", 0.7, ModelProvider.OLLAMA)
 
 
 
@@ -63,16 +63,16 @@ SQLCODER = ModelConfig("sqlcoder", 0.7, ModelProvider.OLLAMA)
 LLAMA_3_3 = ModelConfig("llama-3.3-70b-versatile", 0.0, ModelProvider.GROQ)# Zero temperature for deterministic outputs
 
 # LLaMA 4 Maverick 17B-NOTWORKING
-LLAMA_4_MAVERICK = ModelConfig("llama-4-maverick-17b-128e-instruct", 0.0, ModelProvider.GROQ)
+#LLAMA_4_MAVERICK = ModelConfig("llama-4-maverick-17b-128e-instruct", 0.0, ModelProvider.GROQ)
 
 # LLaMA 4 Scout 17B-NOTWORKING
-LLAMA_4_SCOUT = ModelConfig("llama-4-scout-17b-16e-instruct", 0.0, ModelProvider.GROQ)
+#LLAMA_4_SCOUT = ModelConfig("llama-4-scout-17b-16e-instruct", 0.0, ModelProvider.GROQ)
 
 # Mixtral 8x7B Chat-NOTWORKING
-MIXTRAL_8x7B = ModelConfig("mixtral-8x7b-32768", 0.0, ModelProvider.GROQ)
+#MIXTRAL_8x7B = ModelConfig("mixtral-8x7b-32768", 0.0, ModelProvider.GROQ)
 
 # Gemma 2 9B Instruction
-GEMMA2_9B_IT = ModelConfig("gemma2-9b-it", 0.0, ModelProvider.GROQ)
+#GEMMA2_9B_IT = ModelConfig("gemma2-9b-it", 0.0, ModelProvider.GROQ)
 
 class Config:
     """
