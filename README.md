@@ -37,24 +37,6 @@ The system's core component, **SQLMancer**, is an LLM-powered agent that intelli
 - SQLite database(s) you want to query
 - API key for Groq (if using cloud-based models)
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/
-   cd querymind
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Create a `.env` file with your API keys:
-   ```
-   GROQ_API_KEY=your_groq_api_key_here
-   ```
-
 ### Running the Web Interface
 
 Start the Streamlit web application:
