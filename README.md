@@ -41,7 +41,7 @@ The system's core component, **SQLMancer**, is an LLM-powered agent that intelli
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/querymind.git
+   git clone https://github.com/
    cd querymind
    ```
 
@@ -107,9 +107,9 @@ QueryMind is built with a modular architecture designed for flexibility and exte
 ```
 User: "Show me all customers who placed orders in the last month"
 
-SQLMancer: I'll help you find customers with recent orders. Let me explore your database structure first.
+QueryMind: I'll help you find customers with recent orders. Let me explore your database structure first.
 
-[SQLMancer explores tables and relationships]
+[QueryMind explores tables and relationships]
 
 Here are the customers who placed orders in the last month:
 
@@ -127,9 +127,9 @@ This query identified 3 customers who placed a total of 9 orders in the past mon
 ```
 User: "What are the top 5 products by revenue and what percentage of total revenue do they represent?"
 
-SQLMancer: I'll analyze your product revenue data. First, let me understand your database structure.
+QueryMind: I'll analyze your product revenue data. First, let me understand your database structure.
 
-[SQLMancer explores tables and relationships]
+[QueryMind explores tables and relationships]
 
 Here are the top 5 products by revenue with their contribution to total revenue:
 
@@ -236,8 +236,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 <div align="center">
   <p>Developed with ❤️ by Ashwin Devan</p>
   <p>
-    <a href="https://github.com/yourusername">GitHub</a> •
+    <a href="https://github.com/ashwindevan">GitHub</a> •
     <a href="https://twitter.com/yourusername">Twitter</a> •
-    <a href="mailto:your.email@example.com">Contact</a>
+    <a href="ashwindevan9@gmail.com">Contact</a>
   </p>
 </div>
