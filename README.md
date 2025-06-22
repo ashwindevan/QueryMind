@@ -188,16 +188,22 @@ Available database tools:
 
 ### User Interface
 
+![image](https://github.com/user-attachments/assets/6d1db7e3-fc6f-442f-8ba9-1daf56ed1833)
+![image](https://github.com/user-attachments/assets/34a1ac23-892a-4e52-978f-6eebb0ad9f95)
+![image](https://github.com/user-attachments/assets/571ef334-ae50-4fdd-b9d2-b3e5bb91126b)
+![image](https://github.com/user-attachments/assets/4f0c6b26-61ec-426d-add3-b270fa427138)
+![image](https://github.com/user-attachments/assets/5104fdda-9425-4ce1-8a89-14a501d30869)
+![image](https://github.com/user-attachments/assets/e956e29e-6cfc-4675-8cb4-48f673d513f6)
+![image](https://github.com/user-attachments/assets/0f66bca5-61b6-4237-8275-5c26387fcb05)
+![image](https://github.com/user-attachments/assets/3e111cf7-2b0c-4a57-8b8f-90a7b08f9980)
+![image](https://github.com/user-attachments/assets/42a7ed0e-3e52-4279-a0a4-a988d9e8828e)
+![image](https://github.com/user-attachments/assets/37a63b79-6584-4a28-8328-20938c481ad3)
+![image](https://github.com/user-attachments/assets/6842fa96-8eb2-4cb9-87a6-83ef41354742)
+![image](https://github.com/user-attachments/assets/94937dec-73cf-4d21-9137-bbfc1a0f0fd2)
+![image](https://github.com/user-attachments/assets/150e8ebb-9dc2-4201-8d2d-6f94ec152a32)
 
-![WhatsApp Image 2025-04-26 at 21 02 09_e29e6f65](https://github.com/user-attachments/assets/f39023c0-8415-48bb-8ee4-74b7ddaf5e87)
-
-![WhatsApp Image 2025-04-26 at 21 02 10_2ee2254d](https://github.com/user-attachments/assets/d6a6e6ac-a227-43a5-895e-f4370c5583e0)
 
 
-![WhatsApp Image 2025-04-26 at 21 02 09_1e37d698](https://github.com/user-attachments/assets/4108006c-bcbb-4e31-b053-15e6c236824c)
-
-
-![WhatsApp Image 2025-04-26 at 21 02 10_d0fb5355](https://github.com/user-attachments/assets/dbc56fef-af00-41f4-8bd6-a18b722845dc)
 
 
 
